@@ -1,0 +1,108 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}, {
+			"path": "pages/store/info",
+			"style": {
+				"navigationBarTitleText": "门店信息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/mycenter",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}, {
+			"path": "pages/index/store",
+			"style": {
+				"navigationBarTitleText": "附近门店"
+			}
+		}, {
+			"path": "pages/menber/index",
+			"style": {
+				"navigationBarTitleText": "会员信息",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/menber/card",
+			"style": {
+				"navigationBarTitleText": "会员卡",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/menber/vip",
+			"style": {
+				"navigationBarTitleText": "VPI卡",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/mall/point",
+			"style": {
+				"navigationBarTitleText": "积分页面",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/mall/pointMall",
+			"style": {
+				"navigationBarTitleText": "积分商城",
+				"enablePullDownRefresh": false
+			}
+		},{
+		    "path" : "pages/mall/goodsDetail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "商品详情",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}, {
+			"path": "pages/mall/pointRecord",
+			"style": {
+				"navigationBarTitleText": "积分兑换记录",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/menber/conponList",
+			"style": {
+				"navigationBarTitleText": "优惠券列表",
+				"enablePullDownRefresh": false
+			}
+		},{
+		    "path" : "pages/menber/history",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "消费列表",
+		        "enablePullDownRefresh": false
+		    }            
+		}   
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "会员小程序",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "组件"
+		}, {
+			"pagePath": "pages/index/mycenter",
+			"text": "个人"
+		}, {
+			"pagePath": "pages/index/store",
+			"text": "附近门店"
+		}]
+	}
+}

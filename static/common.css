@@ -1,0 +1,26 @@
+
+
+	.m_tickets {
+		position: relative;
+	}
+
+	.m_tickets::before,
+	.m_tickets::after {
+		content: "";
+		height: 20px;
+		width: 20px;
+		position: absolute;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		background: #f3f4f6;
+		border-radius: 50%;
+	}
+
+	.m_tickets::before {
+		left: -10px;
+	}
+
+	.m_tickets::after {
+		right: -10px;
+		transform: translate(50%, -50%);
+	}
